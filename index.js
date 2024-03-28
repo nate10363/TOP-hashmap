@@ -7,8 +7,6 @@
 /* eslint-disable max-classes-per-file */
 /* eslint-disable no-plusplus */
 /* eslint-disable func-names */
-const keyInput = document.getElementById('key-input');
-// const dataContainer = document.getElementById('data-container');
 
 class HashMap {
   constructor() {
@@ -151,15 +149,3 @@ hashmap.set('Tag', '8');
 hashmap.set('Patrick', '9');
 hashmap.set('14', '10');
 console.log(hashmap.storage);
-// console.log(hashmap.has('Casual'));
-// hashmap.set('HHJJJ', 'Qwer');
-// hashmap.set('Rsdfjk', 'Nbv');
-// hashmap.set('Raj', 'Clues');
-console.log(hashmap.count);
-// console.log(hashmap.hash('Curlings') % hashmap.length);
-
-keyInput.addEventListener('keydown', (e) => {
-  if (e.key === 'Enter') {
-    console.log(hashmap);
-  }
-});
